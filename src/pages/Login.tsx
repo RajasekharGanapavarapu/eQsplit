@@ -36,10 +36,8 @@ export default function Login() {
       </div>
 
       <div className={`${glassClass} w-full max-w-md p-8 md:p-10 transform transition-all duration-500 hover:border-white/[0.12]`}>
-        <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-500 shadow-lg shadow-indigo-500/20 mb-4">
-            <span className="text-xl font-bold tracking-tighter text-white">SF</span>
-          </div>
+        <div className="text-center mb-8 flex flex-col items-center">
+          <img src="/logo.png" alt="eQsplit Logo" className="w-16 h-16 rounded-2xl object-contain shadow-lg shadow-indigo-500/20 mb-4" />
           <h2 className="text-2xl font-semibold tracking-tight text-white">Welcome back</h2>
           <p className="text-slate-400 text-sm mt-1">Experience effortless expense distribution.</p>
         </div>
