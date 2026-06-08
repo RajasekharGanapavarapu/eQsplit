@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { glassClass, inputClass } from '../lib/utils';
 import { supabase } from '../lib/supabase';
 import { ChevronLeft } from 'lucide-react';
